@@ -2,17 +2,8 @@
   "tr-TR": {
     "greet": "Selamlar 🖖",
     "article": "Ben Gökcan. Beni ziyaret ettiğiniz için teşekkür ederim. Kariyerimi Front-End üzerine geliştirmek üzere yola çıkmış eski bir mühendis ve yeni mezun olmuş bir developer'ım.",
-    "communication": "Benimle yukarıda bulunan profillerim üzerinden veya email adresim üzerinden iletişime geçebilirsiniz => <a href='mailto:gokcanparlaktas@hotmail.com'>gokcanparlaktas@hotmail.com</a>",
+    "communication": "Benimle yukarıda bulunan profillerim üzerinden üzerinden iletişime geçebilirsiniz",
     "skill": "Yeteneklerim",
-    "skills": [
-      "Javascript",
-      "React",
-      "Redux",
-      "Tailwind CSS",
-      "Bootstrap",
-      "GitHub",
-      "Figma"
-    ],
     "profile": "Kişisel Bilgilerim",
     "info": {
       "birthday": "18.02.1996",
@@ -47,17 +38,8 @@
   "en-EN": {
     "greet": "Hello 🖖",
     "article": "I’m Gökcan. Thank you for visiting my profile. I am a former engineer and a recent graduate developer who is on a journey to develop my career in Front-End development.",
-    "communication": "You can contact me through my profiles above or via email => <a href='mailto:gokcanparlaktas@hotmail.com'>gokcanparlaktas@hotmail.com</a>",
+    "communication": "You can contact me through my profiles above",
     "skill": "My Skills",
-    "skills": [
-      "Javascript",
-      "React",
-      "Redux",
-      "Tailwind CSS",
-      "Bootstrap",
-      "GitHub",
-      "Figma"
-    ],
     "profile": "Personal Information",
     "info": {
       "birthday": "18.02.1996",
@@ -88,5 +70,41 @@
     },
     "show": "View on GitHub",
     "application": "Go to Application ➡️"
+  },
+  "common": {
+    "skills": [
+      {
+        "name": "JavaScript",
+        "url": "https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
+      },
+      {
+        "name": "HTML",
+        "url": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+      },
+      {
+        "name": "CSS",
+        "url": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+      },
+      {
+        "name": "React",
+        "url": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+      },
+      {
+        "name": "Redux",
+        "url": "https://cdn.worldvectorlogo.com/logos/redux.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "url": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "url": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+      },
+      {
+        "name": "Figma",
+        "url": "https://cdn.worldvectorlogo.com/logos/figma-icon-one-color.svg"
+      }
+    ]
   }
 }

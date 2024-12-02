@@ -1,22 +1,15 @@
-import { useContext } from "react";
 import "./App.css";
-import { DataContext } from "./context/Context";
-import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 function App() {
-  const { localizedData } = useContext(DataContext);
   return (
-    <>
-      <div>
-        <h1 className="my-component">Merhaba, Tailwind!</h1>
-      </div>
-      <header className="bg-black text-white">
-        <Header />
-      </header>
+    <div className="flex flex-col h-screen bg-neutral-100 font-inter">
       <hero>
-        <div>{localizedData.greet}</div>
+        <Hero />
       </hero>
-    </>
+      <Skills />
+    </div>
   );
 }
 

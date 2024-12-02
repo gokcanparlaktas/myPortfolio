@@ -12,10 +12,15 @@ export const DataProvider = ({ children }) => {
     );
   };
 
-  const localizedData = data[language];
-
   return (
-    <DataContext.Provider value={{ language, toggleLanguage, localizedData }}>
+    <DataContext.Provider
+      value={{
+        language,
+        toggleLanguage,
+        localizedData: data[language],
+        common: data.common,
+      }}
+    >
       {children}
     </DataContext.Provider>
   );
