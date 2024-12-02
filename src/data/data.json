@@ -1,0 +1,92 @@
+{
+  "tr-TR": {
+    "greet": "Selamlar 🖖",
+    "article": "Ben Gökcan. Beni ziyaret ettiğiniz için teşekkür ederim. Kariyerimi Front-End üzerine geliştirmek üzere yola çıkmış eski bir mühendis ve yeni mezun olmuş bir developer'ım.",
+    "communication": "Benimle yukarıda bulunan profillerim üzerinden veya email adresim üzerinden iletişime geçebilirsiniz => <a href='mailto:gokcanparlaktas@hotmail.com'>gokcanparlaktas@hotmail.com</a>",
+    "skill": "Yeteneklerim",
+    "skills": [
+      "Javascript",
+      "React",
+      "Redux",
+      "Tailwind CSS",
+      "Bootstrap",
+      "GitHub",
+      "Figma"
+    ],
+    "profile": "Kişisel Bilgilerim",
+    "info": {
+      "birthday": "18.02.1996",
+      "city": "Eskişehir,Türkiye",
+      "education": "Eskişehir Teknik Üniv. Makine Mühendisliği (%30 İng.), Lisans,2022",
+      "role": "Front-End Developer, Müşteri Destek, Teknik Destek"
+    },
+    "aboutTitle": "Hakkımda",
+    "about": "Makine mühendisliğinin çeşitli alanlarında çalıştıktan sonra, küçük yaşlardan itibaren iç içe olduğum tasarım, bilgisayar ve web tasarımı alanları üzerinde kariyerimi geliştirmeye karar verdim. Alan seçimimde ise renkli dünyası, anlık olarak eserinizin gelişimini görebiliyor olmanız ve sonsuz yaratıcılığa imkan vermesi beni Front-End'e yönlendirdi. React, Redux, Tailwind CSS ve JavaScript gibi modern teknolojilerle kullanıcı odaklı ve etkileşimli web uygulamaları oluşturuyorum. <br> Üniversite yıllarında, Eskişehir Teknik Üniversitesi Kariyer ve Girişimcilik Kulübü'nde Tasarım Departman Başkanlığı yaparak tasarımlar (afiş, banner, video) ve etkinlik içerikleri hazırladım. Ayrıca, AIESEC Türkiye'de uluslararası gönüllülere Türkçe'yi ve kültürümüzü tanıtarak sosyal sorumluluk projelerinde yer aldım. Sosyal Medya Kulübü'nde ise içerik üretme ve organizasyon becerilerimi geliştirdim. Sosyal aktivitelerim arasında yemek yapmak, belgesel izlemek, savunma sporları, doğa ve şehir dışı geziler düzenlemek yer alıyor.",
+    "projects": {
+      "Witflix": {
+        "name": "Netflix Statik Klon",
+        "description": "Netflix'in profil seçimi, ana sayfası ve dizayn elemanlarının statik olarak HTML ve CSS ile tasarlanması",
+        "skill": ["HTML", "CSS", "Responsive Design", "Figma"]
+      },
+      "Pizza": {
+        "name": "Pizza Sipariş Sitesi",
+        "description": "Bir pizza firması için dinamik sipariş sayfası hazırlanması. React ile dinamik şekilde yapılmış olup, Axios ile post işlemi gerçekleştirilmiştir. 3 componentten oluşan bir single page application yapısındadır.Form kısmında uygunluk validasyonları kontrol edilmekte ve veriler buna göre post edilmektedir.",
+        "skill": [
+          "HTML",
+          "Javascript",
+          "CSS",
+          "React ve Hooks",
+          "Axios",
+          "Figma"
+        ]
+      }
+    },
+    "show": "GitHub'da görüntüle",
+    "application": "Uyguamaya git ➡️"
+  },
+  "en-EN": {
+    "greet": "Hello 🖖",
+    "article": "I’m Gökcan. Thank you for visiting my profile. I am a former engineer and a recent graduate developer who is on a journey to develop my career in Front-End development.",
+    "communication": "You can contact me through my profiles above or via email => <a href='mailto:gokcanparlaktas@hotmail.com'>gokcanparlaktas@hotmail.com</a>",
+    "skill": "My Skills",
+    "skills": [
+      "Javascript",
+      "React",
+      "Redux",
+      "Tailwind CSS",
+      "Bootstrap",
+      "GitHub",
+      "Figma"
+    ],
+    "profile": "Personal Information",
+    "info": {
+      "birthday": "18.02.1996",
+      "city": "Eskişehir, Turkey",
+      "education": "Eskişehir Technical University, Mechanical Engineering (%30 English), Bachelor's, 2022",
+      "role": "Front-End Developer, Customer Support,Technical Support"
+    },
+    "aboutTitle": "About Me",
+    "about": "After working in various fields of mechanical engineering, I decided to develop my career in design, computers, and web design, which I have been passionate about since childhood. The colorful world, the ability to see the real-time development of your work, and the infinite creativity it allows led me to Front-End development. I create user-focused and interactive web applications using modern technologies such as React, Redux, Tailwind CSS, and JavaScript. <br> During my university years, I served as the Design Department Director in the Eskişehir Technical University Career and Entrepreneurship Club, creating designs (posters, banners, videos) and event content. I also participated in social responsibility projects by introducing Turkish language and culture to international volunteers at AIESEC Turkey. Additionally, I developed content creation and organizational skills at the Social Media Club. My social activities include cooking, watching documentaries, practicing martial arts, and organizing trips outside the city.",
+    "projects": {
+      "Witflix": {
+        "name": "Netflix Static Clone",
+        "description": "The static design of Netflix’s profile selection, homepage, and design elements using HTML and CSS.",
+        "skill": ["HTML", "CSS", "Responsive Design", "Figma"]
+      },
+      "Pizza": {
+        "name": "Pizza Order Website",
+        "description": "A dynamic order page created for a pizza company. It is built with React and Axios to handle POST requests. It is a single-page application consisting of 3 components. Form validation checks the input before posting the data.",
+        "skill": [
+          "HTML",
+          "Javascript",
+          "CSS",
+          "React and Hooks",
+          "Axios",
+          "Figma"
+        ]
+      }
+    },
+    "show": "View on GitHub",
+    "application": "Go to Application ➡️"
+  }
+}
