@@ -4,15 +4,23 @@
     "article": "Ben Gökcan. Beni ziyaret ettiğiniz için teşekkür ederim. Kariyerimi Front-End üzerine geliştirmek üzere yola çıkmış eski bir mühendis ve yeni mezun olmuş bir developer'ım.",
     "communication": "Benimle yukarıda bulunan profillerim üzerinden üzerinden iletişime geçebilirsiniz",
     "skill": "Yeteneklerim",
+    "profileHeader": "Profil",
     "profile": "Kişisel Bilgilerim",
-    "info": {
-      "birthday": "18.02.1996",
-      "city": "Eskişehir,Türkiye",
-      "education": "Eskişehir Teknik Üniv. Makine Mühendisliği (%30 İng.), Lisans,2022",
-      "role": "Front-End Developer, Müşteri Destek, Teknik Destek"
-    },
+    "info": [
+      { "name": "Doğum Tarihi", "value": "18.02.1996" },
+      { "name": "İkamet Yeri", "value": "Eskişehir,Türkiye" },
+      {
+        "name": "Eğitim Durumu",
+        "value": "Eskişehir Teknik Üniv. Makine Mühendisliği (%30 İng.), Lisans,2022"
+      },
+      {
+        "name": "Tercih Edilen Roller",
+        "value": "Front-End Developer, Müşteri Destek, Teknik Destek"
+      }
+    ],
     "aboutTitle": "Hakkımda",
-    "about": "Makine mühendisliğinin çeşitli alanlarında çalıştıktan sonra, küçük yaşlardan itibaren iç içe olduğum tasarım, bilgisayar ve web tasarımı alanları üzerinde kariyerimi geliştirmeye karar verdim. Alan seçimimde ise renkli dünyası, anlık olarak eserinizin gelişimini görebiliyor olmanız ve sonsuz yaratıcılığa imkan vermesi beni Front-End'e yönlendirdi. React, Redux, Tailwind CSS ve JavaScript gibi modern teknolojilerle kullanıcı odaklı ve etkileşimli web uygulamaları oluşturuyorum. <br> Üniversite yıllarında, Eskişehir Teknik Üniversitesi Kariyer ve Girişimcilik Kulübü'nde Tasarım Departman Başkanlığı yaparak tasarımlar (afiş, banner, video) ve etkinlik içerikleri hazırladım. Ayrıca, AIESEC Türkiye'de uluslararası gönüllülere Türkçe'yi ve kültürümüzü tanıtarak sosyal sorumluluk projelerinde yer aldım. Sosyal Medya Kulübü'nde ise içerik üretme ve organizasyon becerilerimi geliştirdim. Sosyal aktivitelerim arasında yemek yapmak, belgesel izlemek, savunma sporları, doğa ve şehir dışı geziler düzenlemek yer alıyor.",
+    "about": "Makine mühendisliğinin çeşitli alanlarında çalıştıktan sonra, küçük yaşlardan itibaren iç içe olduğum tasarım, bilgisayar ve web tasarımı alanları üzerinde kariyerimi geliştirmeye karar verdim. Alan seçimimde ise renkli dünyası, anlık olarak eserinizin gelişimini görebiliyor olmanız ve sonsuz yaratıcılığa imkan vermesi beni Front-End'e yönlendirdi. React, Redux, Tailwind CSS ve JavaScript gibi modern teknolojilerle kullanıcı odaklı ve etkileşimli web uygulamaları oluşturuyorum.",
+    "about2": "Üniversite yıllarında, Eskişehir Teknik Üniversitesi Kariyer ve Girişimcilik Kulübü'nde Tasarım Departman Başkanlığı yaparak tasarımlar (afiş, banner, video) ve etkinlik içerikleri hazırladım. Ayrıca, AIESEC Türkiye'de uluslararası gönüllülere Türkçe'yi ve kültürümüzü tanıtarak sosyal sorumluluk projelerinde yer aldım. Sosyal Medya Kulübü'nde ise içerik üretme ve organizasyon becerilerimi geliştirdim. Sosyal aktivitelerim arasında yemek yapmak, belgesel izlemek, savunma sporları, doğa ve şehir dışı geziler düzenlemek yer alıyor.",
     "projects": {
       "Witflix": {
         "name": "Netflix Statik Klon",
@@ -40,15 +48,23 @@
     "article": "I’m Gökcan. Thank you for visiting my profile. I am a former engineer and a recent graduate developer who is on a journey to develop my career in Front-End development.",
     "communication": "You can contact me through my profiles above",
     "skill": "My Skills",
+    "profileHeader": "Profile",
     "profile": "Personal Information",
-    "info": {
-      "birthday": "18.02.1996",
-      "city": "Eskişehir, Turkey",
-      "education": "Eskişehir Technical University, Mechanical Engineering (%30 English), Bachelor's, 2022",
-      "role": "Front-End Developer, Customer Support,Technical Support"
-    },
+    "info": [
+      { "name": "Birthday", "value": "18.02.1996" },
+      { "name": "Location", "value": "Eskişehir, Turkey" },
+      {
+        "name": "Education",
+        "value": "Eskişehir Technical University, Mechanical Engineering (%30 English), Bachelor's, 2022"
+      },
+      {
+        "name": "Preferred Roles",
+        "value": "Front-End Developer, Customer Support,Technical Support"
+      }
+    ],
     "aboutTitle": "About Me",
-    "about": "After working in various fields of mechanical engineering, I decided to develop my career in design, computers, and web design, which I have been passionate about since childhood. The colorful world, the ability to see the real-time development of your work, and the infinite creativity it allows led me to Front-End development. I create user-focused and interactive web applications using modern technologies such as React, Redux, Tailwind CSS, and JavaScript. <br> During my university years, I served as the Design Department Director in the Eskişehir Technical University Career and Entrepreneurship Club, creating designs (posters, banners, videos) and event content. I also participated in social responsibility projects by introducing Turkish language and culture to international volunteers at AIESEC Turkey. Additionally, I developed content creation and organizational skills at the Social Media Club. My social activities include cooking, watching documentaries, practicing martial arts, and organizing trips outside the city.",
+    "about": "After working in various fields of mechanical engineering, I decided to develop my career in design, computers, and web design, which I have been passionate about since childhood. The colorful world, the ability to see the real-time development of your work, and the infinite creativity it allows led me to Front-End development. I create user-focused and interactive web applications using modern technologies such as React, Redux, Tailwind CSS, and JavaScript.",
+    "about2": "During my university years, I served as the Design Department Director in the Eskişehir Technical University Career and Entrepreneurship Student Community, creating designs (posters, banners, videos) and event content. I also participated in social responsibility projects by introducing Turkish language and culture to international volunteers at AIESEC Turkey. Additionally, I developed content creation and organizational skills at the Social Media Student Community. My social activities include cooking, watching documentaries, practicing martial arts, and organizing trips outside the city.",
     "projects": {
       "Witflix": {
         "name": "Netflix Static Clone",

@@ -9,7 +9,6 @@ const Hero = () => {
     <div className="mt-5 container ">
       <div className="flex justify-end text-neutral-500 font-bold tracking-[0.1rem] text-base">
         {language === "en-EN" ? (
-          // Türkçe dilindeyken
           <span>
             <span
               onClick={() => toggleLanguage("tr-TR")}
@@ -32,11 +31,46 @@ const Hero = () => {
           </span>
         )}
       </div>
-      <article className="flex flex-col gap-10">
-        <div>{localizedData.greet}</div>
-        <div>{localizedData.article}</div>
-        <div>{localizedData.communication}</div>
-      </article>
+      <div className="flex place-content-around mt-32 flex-wrap-reverse gap-5">
+        <article className="flex flex-col gap-5">
+          <div className="text-3xl font-normal leading-9">
+            {localizedData.greet}
+          </div>
+          <div className="text-[42px] max-w-3xl font-medium leading-[64px]">
+            {localizedData.article}
+          </div>
+          <div className="flex gap-5">
+            <a
+              href="https://www.linkedin.com/in/gokcanparlaktas96/"
+              target="_blank"
+              className="max-w-10"
+            >
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-1.svg"
+                alt="Linkedin"
+              />
+            </a>
+            <a
+              href="https://github.com/gokcanparlaktas"
+              target="_blank"
+              className="max-w-10"
+            >
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
+                alt="GitHub"
+              />
+            </a>
+          </div>
+
+          <div className="text-lg">{localizedData.communication}</div>
+        </article>
+        <div className=" max-w-96 max-h-96 overflow-hidden rounded-xl shadow-[#EA2678_-20px_-20px]">
+          <img
+            className="object-cover w-full h-full scale-110"
+            src="https://i.ibb.co/Yjzp2H9/Whats-App-G-rsel-2024-12-03-saat-16-20-21-78e77fb1.jpg"
+          />
+        </div>
+      </div>
     </div>
   );
 };
