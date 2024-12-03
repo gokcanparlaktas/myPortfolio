@@ -5,16 +5,14 @@ import Profile from "./components/Profile";
 
 function App() {
   return (
-    <div className="flex flex-col h-screen bg-neutral-100 font-inter">
-      <hero>
-        <Hero />
-      </hero>
-      <skills>
-        <Skills />
-      </skills>
-      <personalinfo>
+    <div className="flex flex-col font-inter">
+      <Hero />
+
+      <Skills className="bg-black" />
+
+      <div>
         <Profile />
-      </personalinfo>
+      </div>
     </div>
   );
 }
