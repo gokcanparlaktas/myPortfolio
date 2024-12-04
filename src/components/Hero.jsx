@@ -33,7 +33,7 @@ const Hero = () => {
             )}
           </div>
         </div>
-        <div className="flex place-content-around mt-32 flex-wrap-reverse gap-5">
+        <div className="flex sm:ml-5  place-content-around mt-32 flex-wrap-reverse lg:flex-nowrap gap-5">
           <article className="flex flex-col gap-5">
             <div className="text-3xl font-normal leading-9">
               {localizedData.greet}

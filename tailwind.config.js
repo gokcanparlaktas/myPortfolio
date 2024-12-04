@@ -7,6 +7,9 @@ export default {
       center: true,
     },
     extend: {
+      screens: {
+        xs: "480px",
+      },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         playfair: ["Playfair", "serif"],

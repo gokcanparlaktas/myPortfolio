@@ -1,36 +1,52 @@
 import { createContext, useState, useEffect } from "react";
 import data from "../data/data.json";
-
+import axios from "axios";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 export const DataContext = createContext();
 
 export const DataProvider = ({ children }) => {
-  // Dil durumu ve tema durumu için useState kullanıyoruz
-  const [language, setLanguage] = useState("tr-TR");
-  const [darkMode, setDarkMode] = useState(false);
+  const [language, setLanguage] = useState(() => {
+    const storedLanguage = localStorage.getItem("language");
+    if (storedLanguage) return storedLanguage;
+    return navigator.language.toLowerCase().startsWith("tr")
+      ? "tr-TR"
+      : "en-EN";
+  });
 
-  // Dark mode'u localStorage'dan alıp saklama
-  useEffect(() => {
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme === "dark") {
-      setDarkMode(true);
-    }
-  }, []);
-
-  // Dark mode'u değiştirirken localStorage'da güncellenmesini sağlıyoruz
-  const toggleDarkMode = () => {
-    setDarkMode((prevMode) => {
-      const newMode = !prevMode;
-      localStorage.setItem("theme", newMode ? "dark" : "light");
-      return newMode;
-    });
-  };
-
-  // Dil değişimi
   const toggleLanguage = () => {
-    setLanguage((prevLanguage) =>
-      prevLanguage === "tr-TR" ? "en-EN" : "tr-TR"
-    );
+    const newLanguage = language === "tr-TR" ? "en-EN" : "tr-TR";
+    setLanguage(newLanguage);
+    localStorage.setItem("language", newLanguage);
   };
+
+  useEffect(() => {
+    if (!localStorage.getItem("language")) {
+      localStorage.setItem("language", language);
+    }
+  }, [language]);
+
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    axios
+      .post("https://reqres.in/api/workintech", data)
+      .then(() => {
+        toast.success("Bilgiler başarıyla API'a iletildi 👍", {
+          position: "top-left",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
+      })
+      .catch((err) => {
+        setError(err);
+        toast.error("Bir hata oluştu:", err);
+      });
+  }, []);
 
   return (
     <DataContext.Provider
@@ -39,8 +55,7 @@ export const DataProvider = ({ children }) => {
         toggleLanguage,
         localizedData: data[language],
         common: data.common,
-        darkMode, // darkMode state'ini ekliyoruz
-        toggleDarkMode, // darkMode değiştirmek için fonksiyonu sağlıyoruz
+        error,
       }}
     >
       {children}

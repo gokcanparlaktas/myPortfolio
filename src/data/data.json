@@ -1,7 +1,7 @@
 {
   "tr-TR": {
-    "greet": "Selamlar 🖖",
-    "article": "Ben Gökcan. Beni ziyaret ettiğiniz için teşekkür ederim. Kariyerimi Front-End üzerine geliştirmek üzere yola çıkmış eski bir mühendis ve yeni mezun olmuş bir developer'ım.",
+    "greet": "Selamlar ! 🖖",
+    "article": "Ben Gökcan. Beni ziyaret ettiğiniz için teşekkür ederim. Kariyerimi Front-End uygulamalarında geliştirmek üzere yola çıkmış eski bir mühendis ve yeni mezun olmuş bir developer'ım.",
     "communication": "Benimle yukarıda bulunan profillerim üzerinden üzerinden iletişime geçebilirsiniz",
     "skill": "Yeteneklerim",
     "profileHeader": "Profil",
@@ -44,7 +44,7 @@
     "application": "Uyguamaya git ➡️"
   },
   "en-EN": {
-    "greet": "Hello 🖖",
+    "greet": "Hello ! 🖖",
     "article": "I’m Gökcan. Thank you for visiting my profile. I am a former engineer and a recent graduate developer who is on a journey to develop my career in Front-End development.",
     "communication": "You can contact me through my profiles above",
     "skill": "My Skills",
