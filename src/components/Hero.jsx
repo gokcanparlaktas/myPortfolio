@@ -71,7 +71,7 @@ const Hero = () => {
           <div className=" max-w-96 max-h-96 overflow-hidden rounded-xl shadow-[#EA2678_-20px_-20px]">
             <img
               className="object-cover w-full h-full scale-110"
-              src="https://i.ibb.co/Yjzp2H9/Whats-App-G-rsel-2024-12-03-saat-16-20-21-78e77fb1.jpg"
+              src="https://i.ibb.co/RyZLg8z/20210626-181441.jpg"
             />
           </div>
         </div>
