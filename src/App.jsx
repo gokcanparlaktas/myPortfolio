@@ -13,7 +13,7 @@ function App() {
     return <div>Error: {error.message}</div>;
   } else {
     return (
-      <div className="flex flex-col font-inter">
+      <div className="flex flex-col font-inter overflow-hidden">
         <ToastContainer />
         <div>
           <Hero />

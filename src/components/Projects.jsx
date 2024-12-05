@@ -5,7 +5,7 @@ function Projects() {
   const { localizedData, common } = useContext(DataContext);
 
   return (
-    <div className=" mt-5 pb-20 ">
+    <div className=" mt-5 pb-20  ">
       <div className="flex flex-col container ">
         <div className="mx-auto mt-10 ">
           <h2 className="text-4xl mb-10">{localizedData.projectHeader}</h2>
@@ -24,13 +24,13 @@ function Projects() {
 
               <div>
                 {" "}
-                <p className="text-black mt-3 text-base font-normal leading-6">
+                <p className="text-black mt-1 text-base font-normal leading-6">
                   {project.description}
                 </p>
               </div>
 
               <div className="mt-4">
-                <div className="flex gap-3 mt-10 flex-wrap place-content-start ">
+                <div className="flex gap-3 mt-5 flex-wrap place-content-start ">
                   {project.skill.map((skill, skillIndex) => (
                     <div
                       key={skillIndex}
@@ -41,7 +41,7 @@ function Projects() {
                   ))}
                 </div>
               </div>
-              <div className="flex mt-10 place-content-between">
+              <div className="flex mt-5 place-content-between">
                 <div>
                   <a
                     href={project.gitLink}
@@ -58,7 +58,7 @@ function Projects() {
                     target="_blank"
                     className="text-[20px] font-inter font-semibold leading-[30px] text-black hover:underline"
                   >
-                    {localizedData.application}
+                    {localizedData.application}→
                   </a>
                 </div>
               </div>

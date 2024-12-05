@@ -5,7 +5,7 @@ const Hero = () => {
   const { language, toggleLanguage, localizedData } = useContext(DataContext);
 
   return (
-    <div className="pt-5 relative pb-20 bg-gray-100">
+    <div className="pt-5 relative pb-20 bg-gray-100 ">
       <div className="w-[13rem] bg-[#EA2678] h-[3.6875rem] absolute bottom-[5rem] right-[-5rem] rounded-[1.84375rem] opacity-90 "></div>
       <div className="w-[111px] h-[111px] top-[-4rem] left-[26rem] absolute bg-gray-300 rounded-full"></div>
       <div className="container relative ">

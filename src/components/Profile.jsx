@@ -5,7 +5,7 @@ export const Profile = () => {
   const { localizedData } = useContext(DataContext);
   const info = localizedData.info;
   return (
-    <div className=" mt-5 pb-20 bg-gray-100 relative">
+    <div className=" mt-5 pb-20 bg-gray-100 relative ">
       <div className="w-[121px] h-[121px] border-[20px] border-[#EA2678] rounded-full absolute bottom-[-5rem] right-[-3rem]"></div>
       <div className="flex flex-col container ">
         <div className="mx-auto mt-10 ">
