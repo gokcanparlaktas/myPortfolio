@@ -21,27 +21,43 @@
     "aboutTitle": "Hakkımda",
     "about": "Makine mühendisliğinin çeşitli alanlarında çalıştıktan sonra, küçük yaşlardan itibaren iç içe olduğum tasarım, bilgisayar ve web tasarımı alanları üzerinde kariyerimi geliştirmeye karar verdim. Alan seçimimde ise renkli dünyası, anlık olarak eserinizin gelişimini görebiliyor olmanız ve sonsuz yaratıcılığa imkan vermesi beni Front-End'e yönlendirdi. React, Redux, Tailwind CSS ve JavaScript gibi modern teknolojilerle kullanıcı odaklı ve etkileşimli web uygulamaları oluşturuyorum.",
     "about2": "Üniversite yıllarında, Eskişehir Teknik Üniversitesi Kariyer ve Girişimcilik Kulübü'nde Tasarım Departman Başkanlığı yaparak tasarımlar (afiş, banner, video) ve etkinlik içerikleri hazırladım. Ayrıca, AIESEC Türkiye'de uluslararası gönüllülere Türkçe'yi ve kültürümüzü tanıtarak sosyal sorumluluk projelerinde yer aldım. Sosyal Medya Kulübü'nde ise içerik üretme ve organizasyon becerilerimi geliştirdim. Sosyal aktivitelerim arasında yemek yapmak, belgesel izlemek, savunma sporları, doğa ve şehir dışı geziler düzenlemek yer alıyor.",
-    "projects": {
-      "Witflix": {
+    "projectHeader": "Projelerim",
+    "projects": [
+      {
         "name": "Netflix Statik Klon",
-        "description": "Netflix'in profil seçimi, ana sayfası ve dizayn elemanlarının statik olarak HTML ve CSS ile tasarlanması",
-        "skill": ["HTML", "CSS", "Responsive Design", "Figma"]
+        "vercelLink": "https://github.com/gokcanparlaktas/witflix",
+        "gitLink": "https://github.com/gokcanparlaktas/witflix",
+        "description": "Netflix'in profil seçimi, ana sayfası ve dizayn elemanlarının statik olarak HTML ve CSS ile tasarlanmasıdır.",
+        "skill": ["html", "css", "responsive design", "figma"],
+        "photoUrl": "/witflix.png"
       },
-      "Pizza": {
+      {
         "name": "Pizza Sipariş Sitesi",
-        "description": "Bir pizza firması için dinamik sipariş sayfası hazırlanması. React ile dinamik şekilde yapılmış olup, Axios ile post işlemi gerçekleştirilmiştir. 3 componentten oluşan bir single page application yapısındadır.Form kısmında uygunluk validasyonları kontrol edilmekte ve veriler buna göre post edilmektedir.",
+        "vercelLink": "https://s8-pizza-react.vercel.app/",
+        "gitLink": "https://github.com/gokcanparlaktas/s8-pizza-react",
+        "description": "React ile dinamik şekilde yapılmış olup, Axios ile post işlemi gerçekleştirilmiştir. 3 componentten oluşan bir single page application yapısındadır.Form kısmında uygunluk validasyonları kontrol edilmekte ve veriler buna göre post edilmektedir.",
         "skill": [
-          "HTML",
-          "Javascript",
-          "CSS",
-          "React ve Hooks",
-          "Axios",
-          "Figma"
-        ]
+          "html",
+          "javascript",
+          "css",
+          "react",
+          "hooks",
+          "axios",
+          "figma"
+        ],
+        "photoUrl": "/pizza.png"
+      },
+      {
+        "name": "Hesap Makinesi",
+        "vercelLink": "https://react-reducer-calculator-blue.vercel.app/",
+        "gitLink": "https://github.com/gokcanparlaktas/React-Reducer-Calculator",
+        "description": "React ve useReducer hooku ile basit bir hesap makinesi yapılmasıdır",
+        "skill": ["react", "hooks", "css", "reducer"],
+        "photoUrl": "/calc.png"
       }
-    },
+    ],
     "show": "GitHub'da görüntüle",
-    "application": "Uyguamaya git ➡️"
+    "application": "Uygulamaya git "
   },
   "en-EN": {
     "greet": "Hello ! 🖖",
@@ -65,29 +81,48 @@
     "aboutTitle": "About Me",
     "about": "After working in various fields of mechanical engineering, I decided to develop my career in design, computers, and web design, which I have been passionate about since childhood. The colorful world, the ability to see the real-time development of your work, and the infinite creativity it allows led me to Front-End development. I create user-focused and interactive web applications using modern technologies such as React, Redux, Tailwind CSS, and JavaScript.",
     "about2": "During my university years, I served as the Design Department Director in the Eskişehir Technical University Career and Entrepreneurship Student Community, creating designs (posters, banners, videos) and event content. I also participated in social responsibility projects by introducing Turkish language and culture to international volunteers at AIESEC Turkey. Additionally, I developed content creation and organizational skills at the Social Media Student Community. My social activities include cooking, watching documentaries, practicing martial arts, and organizing trips outside the city.",
-    "projects": {
-      "Witflix": {
+    "projectHeader": "Projects",
+
+    "projects": [
+      {
         "name": "Netflix Static Clone",
+        "vercelLink": "https://https://github.com/gokcanparlaktas/witflix",
+        "gitLink": "https://https://github.com/gokcanparlaktas/witflix",
         "description": "The static design of Netflix’s profile selection, homepage, and design elements using HTML and CSS.",
-        "skill": ["HTML", "CSS", "Responsive Design", "Figma"]
+        "skill": ["html", "css", "responsive design", "figma"],
+        "photoUrl": "/witflix.png"
       },
-      "Pizza": {
+      {
         "name": "Pizza Order Website",
+        "vercelLink": "https://s8-pizza-react.vercel.app/",
+        "gitLink": "https://github.com/gokcanparlaktas/s8-pizza-react",
         "description": "A dynamic order page created for a pizza company. It is built with React and Axios to handle POST requests. It is a single-page application consisting of 3 components. Form validation checks the input before posting the data.",
         "skill": [
-          "HTML",
-          "Javascript",
-          "CSS",
-          "React and Hooks",
-          "Axios",
-          "Figma"
-        ]
+          "html",
+          "javascript",
+          "css",
+          "react",
+          "hooks",
+          "axios",
+          "figma"
+        ],
+        "photoUrl": "/pizza.png"
+      },
+      {
+        "name": "Calculator",
+        "vercelLink": "https://react-reducer-calculator-blue.vercel.app/",
+        "gitLink": "https://github.com/gokcanparlaktas/React-Reducer-Calculator",
+        "description": "Creating a simple calculator with React and useReducer hook.",
+        "skill": ["react", "hooks", "css", "reducer"],
+        "photoUrl": "/calc.png"
       }
-    },
+    ],
     "show": "View on GitHub",
-    "application": "Go to Application ➡️"
+    "application": "Go to Application "
   },
   "common": {
+    "colors": ["#DDEEFE", "#D9F6F1", "#f7c1d5"],
+
     "skills": [
       {
         "name": "JavaScript",

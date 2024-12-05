@@ -10,8 +10,8 @@ export const Profile = () => {
         <div className="mx-auto mt-10 ">
           <h2 className="text-4xl mb-10">{localizedData.profileHeader}</h2>
         </div>
-        <div className="flex container flex-wrap lg:flex-nowrap place-content-around gap-5">
-          <div className="my-auto max-w-lg rounded-2xl px-10 py-10 mx-auto shadow-[10px_10px_2px_rgb(82,82,82)]">
+        <div className="flex container flex-wrap lg:flex-nowrap md:gap-24 place-content-around gap-5">
+          <div className="my-auto md:min-w-80 max-w-lg rounded-2xl px-10 py-10 mx-auto shadow-[10px_10px_2px_rgb(82,82,82)]">
             <h3 className="font-light mb-5 text-2xl font-playfair text-[#EA2678]">
               {localizedData.profile}
             </h3>

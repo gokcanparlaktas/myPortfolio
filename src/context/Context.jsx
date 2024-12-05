@@ -44,7 +44,16 @@ export const DataProvider = ({ children }) => {
       })
       .catch((err) => {
         setError(err);
-        toast.error("Bir hata oluştu:", err);
+        toast.error("Bir hata oluştu:", err, {
+          position: "top-left",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
       });
   }, []);
 

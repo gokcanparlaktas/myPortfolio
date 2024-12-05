@@ -2,8 +2,7 @@ import { useContext } from "react";
 import { DataContext } from "../context/Context";
 
 const Hero = () => {
-  const { language, toggleLanguage, localizedData, darkMode, toggleDarkMode } =
-    useContext(DataContext);
+  const { language, toggleLanguage, localizedData } = useContext(DataContext);
 
   return (
     <div className="pt-5 pb-20">
