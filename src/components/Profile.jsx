@@ -7,8 +7,8 @@ export const Profile = () => {
   return (
     <div className=" mt-5 pb-20 bg-gray-100 relative ">
       <div className="w-[121px] h-[121px] border-[20px] border-[#EA2678] rounded-full absolute bottom-[-5rem] right-[-3rem]"></div>
-      <div className="flex flex-col container ">
-        <div className="mx-auto mt-10 ">
+      <div className="flex flex-col container px-5 lg:px-0 ">
+        <div className="mx-auto mt-10">
           <h2 className="text-4xl mb-10">{localizedData.profileHeader}</h2>
         </div>
         <div className="flex container flex-wrap lg:flex-nowrap md:gap-24 place-content-around gap-5">
@@ -16,7 +16,7 @@ export const Profile = () => {
             <h3 className="font-light mb-5 text-2xl font-playfair text-[#EA2678]">
               {localizedData.profile}
             </h3>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 ">
               {info.map((item, index) => (
                 <div className="max-w-md text-lg" key={index}>
                   <strong className="font-semibold">{item.name}:</strong>{" "}
