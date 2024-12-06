@@ -86,8 +86,8 @@
     "projects": [
       {
         "name": "Netflix Static Clone",
-        "vercelLink": "https://https://github.com/gokcanparlaktas/witflix",
-        "gitLink": "https://https://github.com/gokcanparlaktas/witflix",
+        "vercelLink": "https://witflix-nu.vercel.app/",
+        "gitLink": "https://github.com/gokcanparlaktas/witflix",
         "description": "The static design of Netflix’s profile selection, homepage, and design elements using HTML and CSS.",
         "skill": ["html", "css", "responsive design", "figma"],
         "photoUrl": "/witflix.png"
