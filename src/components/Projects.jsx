@@ -10,7 +10,7 @@ function Projects() {
         <div className="mx-auto mt-10 ">
           <h2 className="text-4xl mb-10">{localizedData.projectHeader}</h2>
         </div>
-        <div className="flex container md:flex-wrap-reverse xs:flex-wrap-reverse xs:gap-y-20 md:gap-y-20 place-content-around gap-10">
+        <div className="flex container flex-wrap-reverse lg:flex-nowrap  xs:gap-y-20 md:gap-y-20 place-content-around gap-10">
           {localizedData.projects.map((project, index) => (
             <div
               key={index}

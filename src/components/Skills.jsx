@@ -10,7 +10,7 @@ const Skills = () => {
         <div className="mx-auto text-4xl mb-10">
           <h2>{localizedData.skill}</h2>
         </div>
-        <div className="flex container place-content-between text-center my-10 xs:flex-wrap gap-5 sm:flex-wrap md:flex-wrap lg:flex-nowrap">
+        <div className="flex container place-content-between text-center my-10 flex-wrap gap-5 lg:flex-nowrap">
           {common.skills.map((skill, index) => (
             <div
               className="rounded-xl w-32 hover:shadow-[#EA2678_5px_2px_20px] "
