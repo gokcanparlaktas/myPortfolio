@@ -5,7 +5,7 @@ const Hero = () => {
   const { language, toggleLanguage, localizedData } = useContext(DataContext);
 
   return (
-    <div className="pt-5 relative pb-20 bg-gray-100 ">
+    <div className="pt-5 relative pb-20 bg-gray-100 px-9 lg:px-0">
       <div className="w-[13rem] bg-[#EA2678] h-[3.6875rem] absolute bottom-[5rem] right-[-5rem] rounded-[1.84375rem] opacity-90 "></div>
       <div className="w-[111px] h-[111px] top-[-4rem] left-[26rem] absolute bg-gray-300 rounded-full"></div>
       <div className="container relative ">
@@ -39,10 +39,10 @@ const Hero = () => {
             <div className="text-3xl font-normal leading-9">
               {localizedData.greet}
             </div>
-            <div className="text-[42px] max-w-3xl font-medium leading-[64px] z-20">
+            <div className="text-xl lg:text-[42px] max-w-3xl font-medium leading-[64px] z-20">
               {localizedData.article}
             </div>
-            <div className="w-[148px] h-[31px] absolute top-[6rem] left-0 rounded-[4px] bg-[#E92577]"></div>
+            <div className="w-[148px] h-[31px] absolute top-[5.6rem] lg:top-[6rem] left-[-2rem] lg:left-0 rounded-[4px] bg-[#E92577]"></div>
             <div className="flex gap-5">
               <a
                 href="https://www.linkedin.com/in/gokcanparlaktas96/"
