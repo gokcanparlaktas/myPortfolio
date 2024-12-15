@@ -26,7 +26,7 @@
       {
         "name": "Netflix Statik Klon",
         "vercelLink": "https://github.com/gokcanparlaktas/witflix",
-        "gitLink": "https://github.com/gokcanparlaktas/witflix",
+        "gitLink": "https://witflix-nu.vercel.app/",
         "description": "Netflix'in profil seçimi, ana sayfası ve dizayn elemanlarının statik olarak HTML ve CSS ile tasarlanmasıdır.",
         "skill": ["html", "css", "responsive design", "figma"],
         "photoUrl": "/witflix.png"
