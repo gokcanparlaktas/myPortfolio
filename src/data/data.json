@@ -125,8 +125,16 @@
 
     "skills": [
       {
+        "name:": "Next.js",
+        "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+      },
+      {
         "name": "JavaScript",
         "url": "https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
+      },
+      {
+        "name": "jQuery",
+        "url": "https://cdn.worldvectorlogo.com/logos/jquery-4.svg"
       },
       {
         "name": "HTML",
