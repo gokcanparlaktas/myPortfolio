@@ -27,35 +27,35 @@ export const DataProvider = ({ children }) => {
   }, [language]);
 
   const [error, setError] = useState(null);
-  useEffect(() => {
-    axios
-      .post("https://reqres.in/api/workintech", data)
-      .then(() => {
-        toast.success("Bilgiler başarıyla API'a iletildi 👍", {
-          position: "top-left",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "colored",
-        });
-      })
-      .catch((err) => {
-        setError(err);
-        toast.error("Bir hata oluştu:", err, {
-          position: "top-left",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "colored",
-        });
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .post("https://reqres.in/api/workintech", data)
+  //     .then(() => {
+  //       toast.success("Bilgiler başarıyla API'a iletildi 👍", {
+  //         position: "top-left",
+  //         autoClose: 5000,
+  //         hideProgressBar: false,
+  //         closeOnClick: true,
+  //         pauseOnHover: true,
+  //         draggable: true,
+  //         progress: undefined,
+  //         theme: "colored",
+  //       });
+  //     })
+  //     .catch((err) => {
+  //       setError(err);
+  //       toast.error("Bir hata oluştu:", err, {
+  //         position: "top-left",
+  //         autoClose: 5000,
+  //         hideProgressBar: false,
+  //         closeOnClick: true,
+  //         pauseOnHover: true,
+  //         draggable: true,
+  //         progress: undefined,
+  //         theme: "colored",
+  //       });
+  //     });
+  // }, []);
 
   return (
     <DataContext.Provider
