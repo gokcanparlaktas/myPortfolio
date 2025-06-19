@@ -126,10 +126,6 @@
 
     "skills": [
       {
-        "name:": "Nextjs",
-        "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
-      },
-      {
         "name": "JavaScript",
         "url": "https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
       },
@@ -148,6 +144,10 @@
       {
         "name": "React",
         "url": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+      },
+      {
+        "name:": "Nextjs",
+        "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
       },
       {
         "name": "Redux",
