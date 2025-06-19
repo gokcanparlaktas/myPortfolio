@@ -19,7 +19,7 @@
       }
     ],
     "aboutTitle": "Hakkımda",
-    "about": "Makine mühendisliğinin çeşitli alanlarında çalıştıktan sonra, küçük yaşlardan itibaren iç içe olduğum tasarım, bilgisayar ve web tasarımı alanları üzerinde kariyerimi geliştirmeye karar verdim. Alan seçimimde ise renkli dünyası, anlık olarak eserinizin gelişimini görebiliyor olmanız ve sonsuz yaratıcılığa imkan vermesi beni Front-End'e yönlendirdi. React, Redux, Tailwind CSS ve JavaScript gibi modern teknolojilerle kullanıcı odaklı ve etkileşimli web uygulamaları oluşturuyorum.",
+    "about": "Makine mühendisliğinin farklı alanlarında edindiğim deneyimlerin ardından, çocukluktan beri ilgim olan bilgisayar, tasarım ve web teknolojileri üzerine kariyerimi yönlendirdim. Kullanıcı arayüzleriyle çalışma isteği, anlık sonuçlar görebilmek ve yaratıcı çözümler üretebilme özgürlüğü beni Front-End geliştirmeye yöneltti. React, Next.js, Redux, Tailwind CSS, JavaScript ve jQuery gibi teknolojilerle kullanıcı odaklı, dinamik ve ölçeklenebilir web uygulamaları geliştiriyorum. Eğitim programları, bireysel projeler ve sürekli öğrenmeye olan isteğim sayesinde hem teknik bilgimi hem de tasarım duyarlılığımı geliştirerek yoluma Front-End Developer olarak devam ediyorum.",
     "about2": "Üniversite yıllarında, Eskişehir Teknik Üniversitesi Kariyer ve Girişimcilik Kulübü'nde Tasarım Departman Başkanlığı yaparak tasarımlar (afiş, banner, video) ve etkinlik içerikleri hazırladım. Ayrıca, AIESEC Türkiye'de uluslararası gönüllülere Türkçe'yi ve kültürümüzü tanıtarak sosyal sorumluluk projelerinde yer aldım. Sosyal Medya Kulübü'nde ise içerik üretme ve organizasyon becerilerimi geliştirdim. Sosyal aktivitelerim arasında yemek yapmak, belgesel izlemek, savunma sporları, doğa ve şehir dışı geziler düzenlemek yer alıyor.",
     "projectHeader": "Projelerim",
     "projects": [
@@ -79,7 +79,8 @@
       }
     ],
     "aboutTitle": "About Me",
-    "about": "After working in various fields of mechanical engineering, I decided to develop my career in design, computers, and web design, which I have been passionate about since childhood. The colorful world, the ability to see the real-time development of your work, and the infinite creativity it allows led me to Front-End development. I create user-focused and interactive web applications using modern technologies such as React, Redux, Tailwind CSS, and JavaScript.",
+    "about": "After gaining experience in various fields of mechanical engineering, I decided to pursue a career in computers, design, and web technologies, which have interested me since childhood. My desire to work with user interfaces, see instant visual results, and express creativity led me to Front-End development. I build user-focused, dynamic, and scalable web applications using modern technologies such as React, Next.js, Redux, Tailwind CSS, JavaScript, and jQuery. Through training programs, personal projects, and a passion for continuous learning, I continue to improve both my technical skills and design sensibility as a Front-End Developer.",
+
     "about2": "During my university years, I served as the Design Department Director in the Eskişehir Technical University Career and Entrepreneurship Student Community, creating designs (posters, banners, videos) and event content. I also participated in social responsibility projects by introducing Turkish language and culture to international volunteers at AIESEC Turkey. Additionally, I developed content creation and organizational skills at the Social Media Student Community. My social activities include cooking, watching documentaries, practicing martial arts, and organizing trips outside the city.",
     "projectHeader": "Projects",
 
@@ -125,7 +126,7 @@
 
     "skills": [
       {
-        "name:": "Next.js",
+        "name:": "Nextjs",
         "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
       },
       {
