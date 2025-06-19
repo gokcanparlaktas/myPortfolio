@@ -10,18 +10,18 @@ const Skills = () => {
         <div className="mx-auto text-4xl mb-10 z-50">
           <h2>{localizedData.skill}</h2>
         </div>
-        <div className="flex container place-content-between text-center my-10 flex-wrap gap-5 lg:flex-nowrap">
+        <div className="flex container place-content-center text-center my-10 flex-wrap gap-5 lg:flex-nowrap">
           {common.skills.map((skill, index) => (
             <div
-              className="rounded-xl w-32 hover:shadow-[#EA2678_5px_2px_20px] "
+              className="rounded-xl p-2 transition-all duration-300 hover:scale-105 hover:bg-[#f7c1d5] group "
               key={index}
             >
               <img
                 src={skill.url}
                 alt={skill.name}
-                className="w-14 h-14 mb-3 inline-flex"
+                className="w-14 h-14 mb-3 transition-all duration-300 inline-flex filter group-hover:invert group-hover:brightness-0 "
               />
-              <p className="text-2xl font-medium text-neutral-500">
+              <p className="text-2xl font-medium text-neutral-500 transition-all duration-300 group-hover:text-white ">
                 {skill.name}
               </p>
             </div>

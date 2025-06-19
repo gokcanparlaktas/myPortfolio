@@ -127,19 +127,15 @@
     "skills": [
       {
         "name": "JavaScript",
-        "url": "https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
-      },
-      {
-        "name": "jQuery",
-        "url": "https://cdn.worldvectorlogo.com/logos/jquery-4.svg"
+        "url": "src/assets/pngegg.png"
       },
       {
         "name": "HTML",
-        "url": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+        "url": "src/assets/pngegg-3.png"
       },
       {
         "name": "CSS",
-        "url": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+        "url": "src/assets/pngegg-2.png"
       },
       {
         "name": "React",
@@ -148,6 +144,10 @@
       {
         "name": "NextJS",
         "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+      },
+      {
+        "name": "jQuery",
+        "url": "https://cdn.worldvectorlogo.com/logos/jquery-4.svg"
       },
       {
         "name": "Redux",
