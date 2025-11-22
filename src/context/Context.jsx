@@ -1,7 +1,6 @@
 import { createContext, useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import data from "../data/data.json";
-import axios from "axios";
-import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 export const DataContext = createContext();
 
@@ -26,36 +25,7 @@ export const DataProvider = ({ children }) => {
     }
   }, [language]);
 
-  const [error, setError] = useState(null);
-  // useEffect(() => {
-  //   axios
-  //     .post("https://reqres.in/api/workintech", data)
-  //     .then(() => {
-  //       toast.success("Bilgiler başarıyla API'a iletildi 👍", {
-  //         position: "top-left",
-  //         autoClose: 5000,
-  //         hideProgressBar: false,
-  //         closeOnClick: true,
-  //         pauseOnHover: true,
-  //         draggable: true,
-  //         progress: undefined,
-  //         theme: "colored",
-  //       });
-  //     })
-  //     .catch((err) => {
-  //       setError(err);
-  //       toast.error("Bir hata oluştu:", err, {
-  //         position: "top-left",
-  //         autoClose: 5000,
-  //         hideProgressBar: false,
-  //         closeOnClick: true,
-  //         pauseOnHover: true,
-  //         draggable: true,
-  //         progress: undefined,
-  //         theme: "colored",
-  //       });
-  //     });
-  // }, []);
+
 
   return (
     <DataContext.Provider
@@ -64,10 +34,14 @@ export const DataProvider = ({ children }) => {
         toggleLanguage,
         localizedData: data[language],
         common: data.common,
-        error,
+    
       }}
     >
       {children}
     </DataContext.Provider>
   );
+};
+
+DataProvider.propTypes = {
+  children: PropTypes.node.isRequired,
 };

@@ -127,15 +127,15 @@
     "skills": [
       {
         "name": "JavaScript",
-        "url": "src/assets/pngegg.png"
+        "url": "/assets/pngegg.png"
       },
       {
         "name": "HTML",
-        "url": "src/assets/pngegg-3.png"
+        "url": "/assets/pngegg-3.png"
       },
       {
         "name": "CSS",
-        "url": "src/assets/pngegg-2.png"
+        "url": "/assets/pngegg-2.png"
       },
       {
         "name": "React",

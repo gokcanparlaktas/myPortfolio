@@ -19,18 +19,10 @@ const Hero = () => {
                 >
                   TÜRKÇE
                 </span>
-                'YE GEÇ
+                &apos;YE GEÇ
               </span>
             ) : (
-              <span>
-                <span>SWITCH TO </span>
-                <span
-                  onClick={() => toggleLanguage("en-EN")}
-                  className="text-[#EA2678] cursor-pointer font-bold hover:underline"
-                >
-                  ENGLISH
-                </span>
-              </span>
+              <span>&apos;SWITCH TO ENGLISH&apos;</span>
             )}
           </div>
         </div>
