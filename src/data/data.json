@@ -53,7 +53,14 @@
         "gitLink": "https://github.com/gokcanparlaktas/React-Reducer-Calculator",
         "description": "React ve useReducer hooku ile basit bir hesap makinesi yapılmasıdır",
         "skill": ["react", "hooks", "css", "reducer"],
-        "photoUrl": "/calc.png"
+        "photoUrl": "/assets/calc.png"
+      },
+      {
+        "name": "Medikal Alışveriş Sitesi",
+        "vercelLink": "https://www.mestmall.com",
+        "description": "Next.js ile yapılmış medikal alışveriş sitesi",
+        "skill": ["react", "next.js", "css", "context api", "redux"],
+        "photoUrl": "/shopping.png"
       }
     ],
     "show": "GitHub'da görüntüle",
@@ -115,14 +122,21 @@
         "gitLink": "https://github.com/gokcanparlaktas/React-Reducer-Calculator",
         "description": "Creating a simple calculator with React and useReducer hook.",
         "skill": ["react", "hooks", "css", "reducer"],
-        "photoUrl": "/calc.png"
+        "photoUrl": "/assets/calc.png"
+      },
+      {
+        "name": "Medical Shopping Site",
+        "vercelLink": "https://www.mestmall.com",
+        "description": "Medical shopping site made with Next.js",
+        "skill": ["react", "next.js", "css", "context api", "redux"],
+        "photoUrl": "/shopping.png"
       }
     ],
     "show": "View on GitHub",
     "application": "Go to Application "
   },
   "common": {
-    "colors": ["#DDEEFE", "#D9F6F1", "#f7c1d5"],
+    "colors": ["#DDEEFE", "#D9F6F1", "#f7c1d5","#003fa3"],
 
     "skills": [
       {
