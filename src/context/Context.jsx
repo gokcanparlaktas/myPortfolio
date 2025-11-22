@@ -13,8 +13,8 @@ export const DataProvider = ({ children }) => {
       : "en-EN";
   });
 
-  const toggleLanguage = () => {
-    const newLanguage = language === "tr-TR" ? "en-EN" : "tr-TR";
+  const toggleLanguage = (newLang) => {
+    const newLanguage = newLang || (language === "tr-TR" ? "en-EN" : "tr-TR");
     setLanguage(newLanguage);
     localStorage.setItem("language", newLanguage);
   };
