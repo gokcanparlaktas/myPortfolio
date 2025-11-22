@@ -5,16 +5,16 @@ function Projects() {
   const { localizedData, common } = useContext(DataContext);
 
   return (
-    <div className=" mt-5 pb-20  ">
+    <div className="mt-5 pb-20 ">
       <div className="flex flex-col container ">
         <div className="mx-auto mt-10 ">
           <h2 className="text-4xl mb-10">{localizedData.projectHeader}</h2>
         </div>
-        <div className="flex container flex-wrap-reverse lg:flex-nowrap gap-y-20 gap-x-5 place-content-around lg:gap-10">
+        <div className="flex container overflow-x-auto flex-wrap-reverse lg:flex-nowrap gap-y-20 gap-x-5 place-content-around lg:gap-10 " style={{ paddingBottom: '5rem', minHeight: 'fit-content' }}>
           {localizedData.projects.map((project, index) => (
             <div
               key={index}
-              className={`h-[670px] relative flex-1 flex-col place-content- p-10 basis-[30%] rounded-lg shadow-md bg-[${common.colors[index]}]`}
+              className={`h-[670px] relative flex-1 flex-col place-content- p-10 basis-[31%] rounded-lg shadow-md flex-shrink-0 bg-[${common.colors[index]}]`}
             >
               <div>
                 <h3 className="text-3xl font-bold font-playfair leading-10 ">
@@ -42,25 +42,29 @@ function Projects() {
                 </div>
               </div>
               <div className="flex mt-5 place-content-between">
-                <div>
-                  <a
-                    href={project.gitLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[20px] font-inter font-semibold leading-[30px] text-black hover:underline"
-                  >
-                    {localizedData.show}
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href={project.vercelLink}
-                    target="_blank"
-                    className="text-[20px] font-inter font-semibold leading-[30px] text-black hover:underline"
-                  >
-                    {localizedData.application}→
-                  </a>
-                </div>
+                {project.gitLink && (
+                  <div>
+                    <a
+                      href={project.gitLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[20px] font-inter font-semibold leading-[30px] text-black hover:underline"
+                    >
+                      {localizedData.show}
+                    </a>
+                  </div>
+                )}
+                {project.vercelLink && (
+                  <div>
+                    <a
+                      href={project.vercelLink}
+                      target="_blank"
+                      className="text-[20px] font-inter font-semibold leading-[30px] text-black hover:underline"
+                    >
+                      {localizedData.application}→
+                    </a>
+                  </div>
+                )}
               </div>
               <img
                 className="absolute bottom-[-3rem] left-0 right-0"
