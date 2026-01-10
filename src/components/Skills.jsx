@@ -53,8 +53,13 @@ const Skills = () => {
                       alt={skill.name}
                       className="w-14 h-14 mb-3 transition-all duration-300 inline-flex filter group-hover:invert group-hover:brightness-0 mx-auto"
                     />
-                    <p className="text-2xl font-medium text-neutral-500 transition-all duration-300 group-hover:text-white text-nowrap ">
-                      {skill.name}
+                    <p className="text-xl font-medium text-neutral-500 transition-all duration-300 group-hover:text-white  ">
+                      {skill.name.split('<br>').map((part, i, arr) => (
+                        <span key={i}>
+                          {part}
+                          {i < arr.length - 1 && <br />}
+                        </span>
+                      ))}
                     </p>
                   </div>
                 ))}

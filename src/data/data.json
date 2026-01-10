@@ -1,7 +1,7 @@
 {
   "tr-TR": {
     "greet": "Selamlar ! 🖖",
-    "article": "Ben Gökcan. Beni ziyaret ettiğiniz için teşekkür ederim. Kariyerimi Front-End uygulamalarında geliştirmek üzere yola çıkmış eski bir mühendis ve yeni mezun olmuş bir developer'ım.",
+    "article": "Ben Gökcan. Modern Front-End ve Back-End teknolojileriyle uçtan uca web uygulamaları geliştiren bir Web Developer’ım. React, Next.js ve TypeScript ile kullanıcı odaklı arayüzler; Node.js ve SQL ile sağlam ve sürdürülebilir back-end çözümleri üretiyorum.",
     "communication": "Benimle yukarıda bulunan profillerim üzerinden üzerinden iletişime geçebilirsiniz",
     "skill": "Yeteneklerim",
     "skillFrontend": "Frontend",
@@ -23,7 +23,7 @@
       }
     ],
     "aboutTitle": "Hakkımda",
-    "about": "Makine mühendisliğinin farklı alanlarında edindiğim deneyimlerin ardından, çocukluktan beri ilgim olan bilgisayar, tasarım ve web teknolojileri üzerine kariyerimi yönlendirdim. Kullanıcı arayüzleriyle çalışma isteği, anlık sonuçlar görebilmek ve yaratıcı çözümler üretebilme özgürlüğü beni Front-End geliştirmeye yöneltti. React, Next.js, Redux, Tailwind CSS, JavaScript ve jQuery gibi teknolojilerle kullanıcı odaklı, dinamik ve ölçeklenebilir web uygulamaları geliştiriyorum. Eğitim programları, bireysel projeler ve sürekli öğrenmeye olan isteğim sayesinde hem teknik bilgimi hem de tasarım duyarlılığımı geliştirerek yoluma Front-End Developer olarak devam ediyorum.",
+    "about": "Makine mühendisliğinin farklı alanlarında edindiğim deneyimlerin ardından, çocukluktan beri ilgimi çeken bilgisayar, tasarım ve web teknolojileri alanında kariyerimi yeniden şekillendirdim. Kullanıcı arayüzleriyle çalışmak, anlık sonuçlar görebilmek ve yaratıcı çözümler üretebilme özgürlüğü beni Front-End geliştirmeye yöneltti; bu temelin üzerine uçtan uca çözümler üretebilmek ve full-stack yetkinliğimi güçlendirmek amacıyla back-end tarafında da aktif olarak çalışmaya başladım. React, Next.js ve TypeScript ile kullanıcı odaklı, performanslı ve ölçeklenebilir arayüzler geliştiriyor; Node.js ve SQL ile bu arayüzleri destekleyen sağlam back-end çözümleri üretiyor, projelerim ve sürekli gelişim odağımla Web Developer olarak yoluma devam ediyorum.",
     "about2": "Üniversite yıllarında, Eskişehir Teknik Üniversitesi Kariyer ve Girişimcilik Kulübü'nde Tasarım Departman Başkanlığı yaparak tasarımlar (afiş, banner, video) ve etkinlik içerikleri hazırladım. Ayrıca, AIESEC Türkiye'de uluslararası gönüllülere Türkçe'yi ve kültürümüzü tanıtarak sosyal sorumluluk projelerinde yer aldım. Sosyal Medya Kulübü'nde ise içerik üretme ve organizasyon becerilerimi geliştirdim. Sosyal aktivitelerim arasında yemek yapmak, belgesel izlemek, savunma sporları, doğa ve şehir dışı geziler düzenlemek yer alıyor.",
     "projectHeader": "Projelerim",
     "projects": [
@@ -72,7 +72,7 @@
   },
   "en-EN": {
     "greet": "Hello ! 🖖",
-    "article": "I’m Gökcan. Thank you for visiting my profile. I am a former engineer and a recent graduate developer who is on a journey to develop my career in Front-End development.",
+    "article": "I’m Gökcan. I’m a Web Developer who builds end-to-end web applications using modern Front-End and Back-End technologies. I create user-focused interfaces with React, Next.js, and TypeScript, and develop robust, scalable back-end solutions with Node.js and SQL.",
     "communication": "You can contact me through my profiles above",
     "skill": "My Skills",
     "skillFrontend": "Frontend",
@@ -94,7 +94,7 @@
       }
     ],
     "aboutTitle": "About Me",
-    "about": "After gaining experience in various fields of mechanical engineering, I decided to pursue a career in computers, design, and web technologies, which have interested me since childhood. My desire to work with user interfaces, see instant visual results, and express creativity led me to Front-End development. I build user-focused, dynamic, and scalable web applications using modern technologies such as React, Next.js, Redux, Tailwind CSS, JavaScript, and jQuery. Through training programs, personal projects, and a passion for continuous learning, I continue to improve both my technical skills and design sensibility as a Front-End Developer.",
+    "about": "After gaining experience in various areas of mechanical engineering, I reshaped my career around computer, design, and web technologies—fields I have been interested in since childhood. Working with user interfaces, seeing instant results, and having the freedom to create creative solutions led me to focus on Front-End development; building on this foundation, I also started actively working on the back-end to deliver end-to-end solutions and strengthen my full-stack skill set. I develop user-focused, high-performance, and scalable interfaces using React, Next.js, and TypeScript, and build robust back-end solutions with Node.js and SQL, continuing my journey as a Web Developer through hands-on projects and a strong focus on continuous growth.",
 
     "about2": "During my university years, I served as the Design Department Director in the Eskişehir Technical University Career and Entrepreneurship Student Community, creating designs (posters, banners, videos) and event content. I also participated in social responsibility projects by introducing Turkish language and culture to international volunteers at AIESEC Turkey. Additionally, I developed content creation and organizational skills at the Social Media Student Community. My social activities include cooking, watching documentaries, practicing martial arts, and organizing trips outside the city.",
     "projectHeader": "Projects",
@@ -245,6 +245,16 @@
       {
         "name": "XAMPP",
         "url": "https://cdn.worldvectorlogo.com/logos/xampp.svg",
+        "category": "other"
+      },
+      {
+        "name": "PageSpeed<br>Insights",
+        "url": "https://cdn.worldvectorlogo.com/logos/google-pagespeed-insights-icon-2021-.svg",
+        "category": "other"
+      },
+      {
+        "name": "Google<br>Lighthouse",
+        "url": "https://cdn.worldvectorlogo.com/logos/google-lighthouse.svg",
         "category": "other"
       }
     ]
