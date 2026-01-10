@@ -1,8 +1,33 @@
-import { useContext } from "react";
+import { useContext, useMemo } from "react";
 import { DataContext } from "../context/Context";
 
 const Skills = () => {
   const { common, localizedData } = useContext(DataContext);
+  
+  const groupedSkills = useMemo(() => {
+    const groups = {
+      frontend: [],
+      backend: [],
+      database: [],
+      other: []
+    };
+    
+    common.skills.forEach((skill) => {
+      if (skill.category && groups[skill.category]) {
+        groups[skill.category].push(skill);
+      }
+    });
+    
+    return groups;
+  }, [common.skills]);
+
+  const categories = [
+    { key: "frontend", label: localizedData.skillFrontend },
+    { key: "backend", label: localizedData.skillBackend },
+    { key: "database", label: localizedData.skillDatabase },
+    { key: "other", label: localizedData.skillOther }
+  ];
+
   return (
     <div className=" mt-5 pb-10 relative px-10 lg:px-0 ">
       <div className="flex flex-col mx-auto max-w-4xl mt-10">
@@ -10,23 +35,33 @@ const Skills = () => {
         <div className="mx-auto text-4xl mb-10 z-50">
           <h2>{localizedData.skill}</h2>
         </div>
-        <div className="flex container place-content-center text-center my-10 flex-wrap gap-5 lg:flex-nowrap">
-          {common.skills.map((skill, index) => (
-            <div
-              className="rounded-xl p-2 transition-all duration-300 hover:scale-105 hover:bg-[#f7c1d5] group "
-              key={index}
-            >
-              <img
-                src={skill.url}
-                alt={skill.name}
-                className="w-14 h-14 mb-3 transition-all duration-300 inline-flex filter group-hover:invert group-hover:brightness-0 "
-              />
-              <p className="text-2xl font-medium text-neutral-500 transition-all duration-300 group-hover:text-white ">
-                {skill.name}
-              </p>
+        
+        {categories.map((category) => (
+          groupedSkills[category.key].length > 0 && (
+            <div key={category.key} className="mb-10">
+              <h3 className="text-2xl font-semibold mb-5 text-center text-neutral-600">
+                {category.label}
+              </h3>
+              <div className="grid grid-cols-2 container place-content-center text-center my-10 gap-5 lg:flex lg:flex-wrap lg:justify-center">
+                {groupedSkills[category.key].map((skill, index) => (
+                  <div
+                    className="rounded-xl p-2 transition-all duration-300 hover:scale-105 hover:bg-[#f7c1d5] group"
+                    key={`${category.key}-${index}`}
+                  >
+                    <img
+                      src={skill.url}
+                      alt={skill.name}
+                      className="w-14 h-14 mb-3 transition-all duration-300 inline-flex filter group-hover:invert group-hover:brightness-0 mx-auto"
+                    />
+                    <p className="text-2xl font-medium text-neutral-500 transition-all duration-300 group-hover:text-white text-nowrap ">
+                      {skill.name}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
-          ))}
-        </div>
+          )
+        ))}
       </div>
     </div>
   );

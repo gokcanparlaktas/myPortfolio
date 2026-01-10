@@ -22,12 +22,12 @@ const Hero = () => {
                 &apos;YE GEÇ
               </span>
             ) : (
-              <span>SWITCH TO 
+              <span> SWITCH TO 
                 <span
                   onClick={() => toggleLanguage("en-EN")}
                   className="text-[#EA2678] cursor-pointer font hover:underline"
                 >
-                    ENGLISH
+                     {` ENGLISH`}
                 </span>
               </span>
             )}

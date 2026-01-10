@@ -4,6 +4,10 @@
     "article": "Ben Gökcan. Beni ziyaret ettiğiniz için teşekkür ederim. Kariyerimi Front-End uygulamalarında geliştirmek üzere yola çıkmış eski bir mühendis ve yeni mezun olmuş bir developer'ım.",
     "communication": "Benimle yukarıda bulunan profillerim üzerinden üzerinden iletişime geçebilirsiniz",
     "skill": "Yeteneklerim",
+    "skillFrontend": "Frontend",
+    "skillBackend": "Backend",
+    "skillDatabase": "Database",
+    "skillOther": "Diğer Yetenekler",
     "profileHeader": "Profil",
     "profile": "Kişisel Bilgilerim",
     "info": [
@@ -58,7 +62,7 @@
       {
         "name": "Medikal Alışveriş Sitesi",
         "vercelLink": "https://www.mestmall.com",
-        "description": "Next.js ile yapılmış medikal alışveriş sitesi",
+        "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır)",
         "skill": ["react", "next.js", "css", "context api", "redux"],
         "photoUrl": "/shopping.png"
       }
@@ -71,6 +75,10 @@
     "article": "I’m Gökcan. Thank you for visiting my profile. I am a former engineer and a recent graduate developer who is on a journey to develop my career in Front-End development.",
     "communication": "You can contact me through my profiles above",
     "skill": "My Skills",
+    "skillFrontend": "Frontend",
+    "skillBackend": "Backend",
+    "skillDatabase": "Database",
+    "skillOther": "Other Skills",
     "profileHeader": "Profile",
     "profile": "Personal Information",
     "info": [
@@ -141,43 +149,103 @@
     "skills": [
       {
         "name": "JavaScript",
-        "url": "/pngegg.png"
+        "url": "/pngegg.png",
+        "category": "frontend"
       },
       {
         "name": "HTML",
-        "url": "/pngegg-3.png"
+        "url": "/pngegg-3.png",
+        "category": "frontend"
       },
       {
         "name": "CSS",
-        "url": "/pngegg-2.png"
+        "url": "/pngegg-2.png",
+        "category": "frontend"
       },
       {
         "name": "React",
-        "url": "https://cdn.worldvectorlogo.com/logos/react-2.svg"
+        "url": "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+        "category": "frontend"
       },
       {
         "name": "NextJS",
-        "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+        "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+        "category": "frontend"
       },
       {
         "name": "jQuery",
-        "url": "https://cdn.worldvectorlogo.com/logos/jquery-4.svg"
+        "url": "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
+        "category": "frontend"
       },
       {
         "name": "Redux",
-        "url": "https://cdn.worldvectorlogo.com/logos/redux.svg"
+        "url": "https://cdn.worldvectorlogo.com/logos/redux.svg",
+        "category": "frontend"
       },
       {
         "name": "Tailwind",
-        "url": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+        "url": "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg",
+        "category": "frontend"
       },
       {
         "name": "Bootstrap",
-        "url": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+        "url": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
+        "category": "frontend"
       },
       {
         "name": "Figma",
-        "url": "https://cdn.worldvectorlogo.com/logos/figma-icon-one-color.svg"
+        "url": "https://cdn.worldvectorlogo.com/logos/figma-icon-one-color.svg",
+        "category": "other"
+      },
+      {
+        "name": "TypeScript",
+        "url": "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+        "category": "frontend"
+      },
+      {
+        "name": "Node.js",
+        "url": "https://cdn.worldvectorlogo.com/logos/nodejs-1.svg",
+        "category": "backend"
+      },
+      {
+        "name": "Express.js",
+        "url": "https://cdn.worldvectorlogo.com/logos/expressjs.svg",
+        "category": "backend"
+      },
+      {
+        "name": "TypeScript",
+        "url": "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+        "category": "backend"
+      },
+      {
+        "name": "Laravel",
+        "url": "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
+        "category": "backend"
+      },
+      {
+        "name": "PostgreSQL",
+        "url": "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+        "category": "database"
+      },
+      {
+        "name": "Shopify",
+        "url": "https://cdn.worldvectorlogo.com/logos/shopify.svg",
+        "category": "other"
+      },
+      {
+        "name": "Vercel",
+        "url": "https://cdn.worldvectorlogo.com/logos/vercel.svg",
+        "category": "other"
+      },
+      {
+        "name": "Vite",
+        "url": "https://cdn.worldvectorlogo.com/logos/vitejs.svg",
+        "category": "other"
+      },
+      {
+        "name": "XAMPP",
+        "url": "https://cdn.worldvectorlogo.com/logos/xampp.svg",
+        "category": "other"
       }
     ]
   }
