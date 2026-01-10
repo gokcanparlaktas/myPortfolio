@@ -28,6 +28,13 @@
     "projectHeader": "Projelerim",
     "projects": [
       {
+        "name": "Medikal Alışveriş Sitesi",
+        "vercelLink": "https://www.mestmall.com",
+        "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır)",
+        "skill": ["react", "next.js", "css", "context api", "redux","vercel"],
+        "photoUrl": "/shopping.png"
+      },
+      {
         "name": "Netflix Statik Klon",
         "vercelLink": "https://witflix-nu.vercel.app/",
         "gitLink": "https://github.com/gokcanparlaktas/witflix",
@@ -58,13 +65,6 @@
         "description": "React ve useReducer hooku ile basit bir hesap makinesi yapılmasıdır",
         "skill": ["react", "hooks", "css", "reducer"],
         "photoUrl": "/assets/calc.png"
-      },
-      {
-        "name": "Medikal Alışveriş Sitesi",
-        "vercelLink": "https://www.mestmall.com",
-        "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır)",
-        "skill": ["react", "next.js", "css", "context api", "redux","vercel"],
-        "photoUrl": "/shopping.png"
       }
     ],
     "show": "GitHub'da görüntüle",
@@ -101,10 +101,17 @@
 
     "projects": [
       {
+        "name": "Medical Shopping Site",
+        "vercelLink": "https://www.mestmall.com",
+        "description": "Medical shopping site made with Next.js",
+        "skill": ["react", "next.js", "css", "context api", "redux"],
+        "photoUrl": "/shopping.png"
+      },
+      {
         "name": "Netflix Static Clone",
         "vercelLink": "https://witflix-nu.vercel.app/",
         "gitLink": "https://github.com/gokcanparlaktas/witflix",
-        "description": "The static design of Netflix’s profile selection, homepage, and design elements using HTML and CSS.",
+        "description": "The static design of Netflix's profile selection, homepage, and design elements using HTML and CSS.",
         "skill": ["html", "css", "responsive design", "figma"],
         "photoUrl": "/witflix.png"
       },
@@ -131,13 +138,6 @@
         "description": "Creating a simple calculator with React and useReducer hook.",
         "skill": ["react", "hooks", "css", "reducer"],
         "photoUrl": "/assets/calc.png"
-      },
-      {
-        "name": "Medical Shopping Site",
-        "vercelLink": "https://www.mestmall.com",
-        "description": "Medical shopping site made with Next.js",
-        "skill": ["react", "next.js", "css", "context api", "redux"],
-        "photoUrl": "/shopping.png"
       }
     ],
     "show": "View on GitHub",
