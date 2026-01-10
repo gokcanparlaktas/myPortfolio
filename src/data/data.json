@@ -63,7 +63,7 @@
         "name": "Medikal Alışveriş Sitesi",
         "vercelLink": "https://www.mestmall.com",
         "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır)",
-        "skill": ["react", "next.js", "css", "context api", "redux"],
+        "skill": ["react", "next.js", "css", "context api", "redux","vercel"],
         "photoUrl": "/shopping.png"
       }
     ],
