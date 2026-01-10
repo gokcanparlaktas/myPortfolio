@@ -30,7 +30,7 @@
       {
         "name": "Medikal Alışveriş Sitesi",
         "vercelLink": "https://www.mestmall.com",
-        "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır)",
+        "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır). Web sitesinin dışında admin panelin de front end düzenlemelerini yaptım.",
         "skill": ["react", "next.js", "css", "context api", "redux","vercel"],
         "photoUrl": "/shopping.png"
       },
@@ -103,7 +103,7 @@
       {
         "name": "Medical Shopping Site",
         "vercelLink": "https://www.mestmall.com",
-        "description": "Medical shopping site made with Next.js",
+        "description": "Medical shopping site made with Next.js. In addition to the website, I also worked on the admin panel's front-end.",
         "skill": ["react", "next.js", "css", "context api", "redux"],
         "photoUrl": "/shopping.png"
       },
