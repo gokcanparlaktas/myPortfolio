@@ -48,7 +48,7 @@
         "photoUrl": "/shopify.png"
       },
       {
-        "name": "Yöresel Lezzetler Restorantı Sitesi",
+        "name": "Antakya Mutfağı Restorantı Sitesi",
         "vercelLink": "https://www.mecitinantakyamutfagi.com/",
         "description": "Bootstrap teması özelleştirilerek tasarım düzenlenmiş ve ekstra özellikler eklenmiştir. Ayrıca i18n ile 8 dilde dinamik olarak çevrilmesi sağlanmıştır.",
         "skill": ["bootstrap", "javascript", "i18n", "translation", "html", "css"],
@@ -137,7 +137,7 @@
         "photoUrl": "/shopify.png"
       },
       {
-        "name": "Regional Cuisine Restaurant Website",
+        "name": "Antakya Cuisine Restaurant Website",
         "vercelLink": "https://www.mecitinantakyamutfagi.com/",
         "description": "A Bootstrap theme was customized to redesign the layout and add extra features. Dynamic translation into 8 languages was implemented using i18n.",
         "skill": ["bootstrap", "javascript", "i18n", "translation", "html", "css"],
@@ -205,11 +205,6 @@
         "category": "frontend"
       },
       {
-        "name": "jQuery",
-        "url": "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
-        "category": "frontend"
-      },
-      {
         "name": "Redux",
         "url": "https://cdn.worldvectorlogo.com/logos/redux.svg",
         "category": "frontend"
@@ -235,6 +230,11 @@
         "category": "frontend"
       },
       {
+        "name": "jQuery",
+        "url": "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
+        "category": "frontend"
+      },
+      {
         "name": "Node.js",
         "url": "https://cdn.worldvectorlogo.com/logos/nodejs-1.svg",
         "category": "backend"
@@ -245,18 +245,23 @@
         "category": "backend"
       },
       {
-        "name": "TypeScript",
-        "url": "https://cdn.worldvectorlogo.com/logos/typescript.svg",
-        "category": "backend"
-      },
-      {
         "name": "Laravel",
         "url": "https://cdn.worldvectorlogo.com/logos/laravel-2.svg",
         "category": "backend"
       },
       {
+        "name": "TypeScript",
+        "url": "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+        "category": "backend"
+      },
+      {
         "name": "PostgreSQL",
         "url": "https://cdn.worldvectorlogo.com/logos/postgresql.svg",
+        "category": "database"
+      },
+      {
+        "name": "DBeaver",
+        "url": "https://icon.icepanel.io/Technology/svg/DBeaver.svg",
         "category": "database"
       },
       {
@@ -277,6 +282,21 @@
       {
         "name": "XAMPP",
         "url": "https://cdn.worldvectorlogo.com/logos/xampp.svg",
+        "category": "other"
+      },
+      {
+        "name": "Asana",
+        "url": "https://images.seeklogo.com/logo-png/32/2/asana-logo-png_seeklogo-326138.png",
+        "category": "other"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
+        "category": "other"
+      },
+      {
+        "name": "Bitbucket",
+        "url": "https://w7.pngwing.com/pngs/404/31/png-transparent-bitbucket-icon-hd-logo.png",
         "category": "other"
       },
       {

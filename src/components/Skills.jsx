@@ -36,37 +36,39 @@ const Skills = () => {
           <h2>{localizedData.skill}</h2>
         </div>
         
-        {categories.map((category) => (
-          groupedSkills[category.key].length > 0 && (
-            <div key={category.key} className="mb-10">
-              <h3 className="text-2xl font-semibold mb-5 text-center text-neutral-600">
-                {category.label}
-              </h3>
-              <div className="grid grid-cols-2 container place-content-center text-center my-10 gap-5 lg:flex lg:flex-wrap lg:justify-center">
-                {groupedSkills[category.key].map((skill, index) => (
-                  <div
-                    className="rounded-xl p-2 transition-all duration-300 hover:scale-105 hover:bg-[#f7c1d5] group"
-                    key={`${category.key}-${index}`}
-                  >
-                    <img
-                      src={skill.url}
-                      alt={skill.name}
-                      className="w-14 h-14 mb-3 transition-all duration-300 inline-flex filter group-hover:invert group-hover:brightness-0 mx-auto"
-                    />
-                    <p className="text-xl font-medium text-neutral-500 transition-all duration-300 group-hover:text-white  ">
-                      {skill.name.split('<br>').map((part, i, arr) => (
-                        <span key={i}>
-                          {part}
-                          {i < arr.length - 1 && <br />}
-                        </span>
-                      ))}
-                    </p>
-                  </div>
-                ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {categories.map((category) => (
+            groupedSkills[category.key].length > 0 && (
+              <div key={category.key} className="p-6 rounded-lg border border-gray-200 shadow-md bg-white">
+                <h3 className="text-2xl font-semibold mb-5 text-center text-neutral-600">
+                  {category.label}
+                </h3>
+                <div className="grid grid-cols-2 container place-content-center text-center my-5  gap-3 lg:grid lg:grid-cols-4 lg:gap-5">
+                  {groupedSkills[category.key].map((skill, index) => (
+                    <div
+                      className="rounded-xl p-4 transition-all duration-300 hover:scale-105 hover:bg-[#f7c1d5] group flex flex-col items-center  h-full"
+                      key={`${category.key}-${index}`}
+                    >
+                      <img
+                        src={skill.url}
+                        alt={skill.name}
+                        className="w-14 h-14 mb-3 transition-all duration-300 inline-flex mx-auto group-hover:grayscale group-hover:drop-shadow-lg group-hover:scale-110 flex-shrink-0"
+                      />
+                      <p className="text-xl font-medium text-neutral-500 transition-all duration-300 group-hover:text-white text-center">
+                        {skill.name.split('<br>').map((part, i, arr) => (
+                          <span key={i}>
+                            {part}
+                            {i < arr.length - 1 && <br />}
+                          </span>
+                        ))}
+                      </p>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          )
-        ))}
+            )
+          ))}
+        </div>
       </div>
     </div>
   );
