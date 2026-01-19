@@ -28,10 +28,10 @@
     "projectHeader": "Projelerim",
     "projects": [
       {
-        "name": "Medikal E-Commerce Alışveriş Sitesi",
+        "name": "Medikal Alışveriş Sitesi",
         "vercelLink": "https://www.mestmall.com",
-        "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır). Laravel ile yazılmış admin panelinde de front end düzenlemelerini yaptım.",
-        "skill": ["react", "next.js", "tailwind", "context api", "redux","vercel", "e-commerce", "laravel"],
+        "description": "Next.js ile geliştirilmiş bir e-ticaret sitesinde müşteri tasarımına göre front-end düzenlemeleri ve yeni fonksiyon eklemeleri yaptım. Ödeme akışındaki sorunları gidererek PayTR entegrasyonunu ve kargo entegrasyonunu (Geliver) sağladım; ayrıca müşteri puanı tarafındaki hesaplama ve akış problemlerini düzelttim. Laravel ile yazılmış admin panelinde front-end düzenlemeleri yaptım ve backend’de eksik/hatalı API verilerini tamamlayarak front-end ile entegrasyonu daha sağlam hale getirdim.",
+        "skill": ["react", "next.js", "tailwind", "context api", "redux", "e-commerce", "laravel","debugging"],
         "photoUrl": "/shopping.png"
       },
       {
@@ -100,10 +100,10 @@
 
     "projects": [
       {
-        "name": "Medical E-Commerce Shopping Site",
+        "name": "Medical E-Commerce Site",
         "vercelLink": "https://www.mestmall.com",
-        "description": "Medical shopping site made with Next.js. I also worked on the front-end of the admin panel, which was built with Laravel.",
-        "skill": ["react", "next.js", "tailwind", "context api", "redux", "e-commerce", "laravel"],
+        "description": "I worked on an e-commerce site built with Next.js, implementing front-end adjustments and new features according to the client's design. I resolved issues in the payment flow, enabling PayTR integration and shipping integration (Geliver), and fixed calculation and flow problems in the customer points system. I also performed front-end adjustments in the Laravel-built admin panel and completed missing/incorrect API data in the backend to strengthen the front-end integration.",
+        "skill": ["react", "next.js", "tailwind", "context api", "redux", "e-commerce", "laravel","debugging"],
         "photoUrl": "/shopping.png"
       },
       {
