@@ -28,10 +28,10 @@
     "projectHeader": "Projelerim",
     "projects": [
       {
-        "name": "Medikal Alışveriş Sitesi",
+        "name": "Medikal E-Commerce Alışveriş Sitesi",
         "vercelLink": "https://www.mestmall.com",
-        "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır). Web sitesinin dışında admin panelin de front end düzenlemelerini yaptım.",
-        "skill": ["react", "next.js", "css", "context api", "redux","vercel"],
+        "description": "Next.js ile yapılmış medikal alışveriş sitesi (aktif olarak kullanılmaktadır). Laravel ile yazılmış admin panelinde de front end düzenlemelerini yaptım.",
+        "skill": ["react", "next.js", "tailwind", "context api", "redux","vercel", "e-commerce", "laravel"],
         "photoUrl": "/shopping.png"
       },
       {
@@ -100,10 +100,10 @@
 
     "projects": [
       {
-        "name": "Medical Shopping Site",
+        "name": "Medical E-Commerce Shopping Site",
         "vercelLink": "https://www.mestmall.com",
-        "description": "Medical shopping site made with Next.js. In addition to the website, I also worked on the admin panel's front-end.",
-        "skill": ["react", "next.js", "css", "context api", "redux"],
+        "description": "Medical shopping site made with Next.js. I also worked on the front-end of the admin panel, which was built with Laravel.",
+        "skill": ["react", "next.js", "tailwind", "context api", "redux", "e-commerce", "laravel"],
         "photoUrl": "/shopping.png"
       },
       {
