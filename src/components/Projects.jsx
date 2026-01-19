@@ -67,7 +67,7 @@ function Projects() {
                 )}
               </div>
               <img
-                className="absolute bottom-[-3rem] left-0 right-0"
+                className="absolute bottom-[-5rem] left-0 right-0"
                 src={project.photoUrl}
                 alt="Logo"
               />
