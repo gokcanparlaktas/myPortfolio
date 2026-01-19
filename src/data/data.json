@@ -19,13 +19,13 @@
       },
       {
         "name": "Tercih Edilen Roller",
-        "value": "Front-End Developer, Müşteri Destek, Teknik Destek"
+        "value": "Front-End Developer, Junior Full Stack Developer"
       }
     ],
     "aboutTitle": "Hakkımda",
     "about": "Makine mühendisliğinin farklı alanlarında edindiğim deneyimlerin ardından, çocukluktan beri ilgimi çeken bilgisayar, tasarım ve web teknolojileri alanında kariyerimi yeniden şekillendirdim. Kullanıcı arayüzleriyle çalışmak, anlık sonuçlar görebilmek ve yaratıcı çözümler üretebilme özgürlüğü beni Front-End geliştirmeye yöneltti; bu temelin üzerine uçtan uca çözümler üretebilmek ve full-stack yetkinliğimi güçlendirmek amacıyla back-end tarafında da aktif olarak çalışmaya başladım. React, Next.js ve TypeScript ile kullanıcı odaklı, performanslı ve ölçeklenebilir arayüzler geliştiriyor; Node.js ve SQL ile bu arayüzleri destekleyen sağlam back-end çözümleri üretiyor, projelerim ve sürekli gelişim odağımla Web Developer olarak yoluma devam ediyorum.",
     "about2": "Üniversite yıllarında, Eskişehir Teknik Üniversitesi Kariyer ve Girişimcilik Kulübü'nde Tasarım Departman Başkanlığı yaparak tasarımlar (afiş, banner, video) ve etkinlik içerikleri hazırladım. Ayrıca, AIESEC Türkiye'de uluslararası gönüllülere Türkçe'yi ve kültürümüzü tanıtarak sosyal sorumluluk projelerinde yer aldım. Sosyal Medya Kulübü'nde ise içerik üretme ve organizasyon becerilerimi geliştirdim. Sosyal aktivitelerim arasında yemek yapmak, belgesel izlemek, savunma sporları, doğa ve şehir dışı geziler düzenlemek yer alıyor.",
-    "projectHeader": "Projelerim",
+    "projectHeader": "Projelerim (+50 Tamamlanmış Proje)",
     "projects": [
       {
         "name": "Medikal Alışveriş Sitesi",
@@ -42,10 +42,35 @@
         "photoUrl": "/yatch.png"
       },
       {
+        "name": "Shopify Mutfak Ürünleri Projesi (Yapım Aşamasında)",
+        "description": "Shopify mağazasında tema ve içerik düzenlemeleri yaptım, Liquid kodlarını düzenledim, ürün ve koleksiyon ekledim. Ayrıca çevirileri gerçekleştirdim.",
+        "skill": ["shopify", "liquid", "e-commerce", "translation"],
+        "photoUrl": "/shopify.png"
+      },
+      {
+        "name": "Yöresel Lezzetler Restorantı Sitesi",
+        "vercelLink": "https://www.mecitinantakyamutfagi.com/",
+        "description": "Bootstrap teması özelleştirilerek tasarım düzenlenmiş ve ekstra özellikler eklenmiştir. Ayrıca i18n ile 8 dilde dinamik olarak çevrilmesi sağlanmıştır.",
+        "skill": ["bootstrap", "javascript", "i18n", "translation", "html", "css"],
+        "photoUrl": "/restaurant.png"
+      },
+      {
+        "name": "Savunma Sanayi Firması Sitesi (Yapım Aşamasında)",
+        "description": "Figma tasarımına göre pixel-perfect şekilde HTML, JavaScript ve Bootstrap ile geliştirilmiş ve Laravel ile dinamikleştirilmiş bir savunma sanayi firması web sitesi. Ayrıca jQuery ile dinamik bir ürün konfigürasyon sayfası geliştirdim.",
+        "skill": ["html", "javascript", "bootstrap", "laravel", "figma", "jquery"],
+        "photoUrl": "/defence.png"
+      },
+      {
+        "name": "Çevirmenler için Freelance Platformu (İptal Edildi)",
+        "description": "Figma tasarımından pixel-perfect şekilde geliştirilmiş çevirmenler için freelance platformu. Birçok form içeren web sitesi ve kullanıcı bilgilerinin güncellendiği profil sayfaları yapıldı. Ayrıca mailler için de tasarımlar yapıldı.",
+        "skill": ["html", "css", "javascript", "figma", "mailgun", "forms", "profile pages"],
+        "photoUrl": "/translate.png"
+      },
+      {
         "name": "Pizza Sipariş Sitesi",
         "vercelLink": "https://s8-pizza-react.vercel.app/",
         "gitLink": "https://github.com/gokcanparlaktas/s8-pizza-react",
-        "description": "React ile dinamik şekilde yapılmış olup, Axios ile post işlemi gerçekleştirilmiştir. 3 componentten oluşan bir single page application yapısındadır.Form kısmında uygunluk validasyonları kontrol edilmekte ve veriler buna göre post edilmektedir.",
+        "description": "Front-end eğitimim sürecinde React ile dinamik şekilde yapılmış olup, Axios ile post işlemi gerçekleştirilmiştir. 3 componentten oluşan bir single page application yapısındadır.Form kısmında uygunluk validasyonları kontrol edilmekte ve veriler buna göre post edilmektedir.",
         "skill": [
           "html",
           "javascript",
@@ -56,14 +81,6 @@
           "figma"
         ],
         "photoUrl": "/pizza.png"
-      },
-      {
-        "name": "Hesap Makinesi",
-        "vercelLink": "https://react-reducer-calculator-blue.vercel.app/",
-        "gitLink": "https://github.com/gokcanparlaktas/React-Reducer-Calculator",
-        "description": "React ve useReducer hooku ile basit bir hesap makinesi yapılmasıdır",
-        "skill": ["react", "hooks", "css", "reducer"],
-        "photoUrl": "/assets/calc.png"
       }
     ],
     "show": "GitHub'da görüntüle",
@@ -89,14 +106,14 @@
       },
       {
         "name": "Preferred Roles",
-        "value": "Front-End Developer, Customer Support,Technical Support"
+        "value": "Front-End Developer, Junior Full Stack Developer"
       }
     ],
     "aboutTitle": "About Me",
     "about": "After gaining experience in various areas of mechanical engineering, I reshaped my career around computer, design, and web technologies—fields I have been interested in since childhood. Working with user interfaces, seeing instant results, and having the freedom to create creative solutions led me to focus on Front-End development; building on this foundation, I also started actively working on the back-end to deliver end-to-end solutions and strengthen my full-stack skill set. I develop user-focused, high-performance, and scalable interfaces using React, Next.js, and TypeScript, and build robust back-end solutions with Node.js and SQL, continuing my journey as a Web Developer through hands-on projects and a strong focus on continuous growth.",
 
     "about2": "During my university years, I served as the Design Department Director in the Eskişehir Technical University Career and Entrepreneurship Student Community, creating designs (posters, banners, videos) and event content. I also participated in social responsibility projects by introducing Turkish language and culture to international volunteers at AIESEC Turkey. Additionally, I developed content creation and organizational skills at the Social Media Student Community. My social activities include cooking, watching documentaries, practicing martial arts, and organizing trips outside the city.",
-    "projectHeader": "Projects",
+    "projectHeader": "Projects (+50 Completed Projects)",
 
     "projects": [
       {
@@ -114,10 +131,35 @@
         "photoUrl": "/yatch.png"
       },
       {
+        "name": "Shopify Kitchen Products Project (In Progress)",
+        "description": "I made theme and content adjustments on a Shopify store, edited Liquid code, added products and collections. I also handled translations.",
+        "skill": ["shopify", "liquid", "e-commerce", "translation"],
+        "photoUrl": "/shopify.png"
+      },
+      {
+        "name": "Regional Cuisine Restaurant Website",
+        "vercelLink": "https://www.mecitinantakyamutfagi.com/",
+        "description": "A Bootstrap theme was customized to redesign the layout and add extra features. Dynamic translation into 8 languages was implemented using i18n.",
+        "skill": ["bootstrap", "javascript", "i18n", "translation", "html", "css"],
+        "photoUrl": "/restaurant.png"
+      },
+      {
+        "name": "Defense Industry Company Website (In Progress)",
+        "description": "A defense industry company website developed pixel-perfect according to the Figma design using HTML, JavaScript, and Bootstrap, and made dynamic with Laravel. I also developed a dynamic product configuration page using jQuery.",
+        "skill": ["html", "javascript", "bootstrap", "laravel", "figma", "jquery"],
+        "photoUrl": "/defence.png"
+      },
+      {
+        "name": "Freelance Platform for Translators (Cancelled)",
+        "description": "A freelance platform for translators developed pixel-perfect from Figma design. A website with multiple forms and profile pages where users can update their information was created. Email designs were also implemented.",
+        "skill": ["html", "css", "javascript", "figma", "mailgun", "forms", "profile pages"],
+        "photoUrl": "/translate.png"
+      },
+      {
         "name": "Pizza Order Website",
         "vercelLink": "https://s8-pizza-react.vercel.app/",
         "gitLink": "https://github.com/gokcanparlaktas/s8-pizza-react",
-        "description": "A dynamic order page created for a pizza company. It is built with React and Axios to handle POST requests. It is a single-page application consisting of 3 components. Form validation checks the input before posting the data.",
+        "description": "Created during my front-end education journey. A dynamic order page created for a pizza company. It is built with React and Axios to handle POST requests. It is a single-page application consisting of 3 components. Form validation checks the input before posting the data.",
         "skill": [
           "html",
           "javascript",
@@ -128,21 +170,13 @@
           "figma"
         ],
         "photoUrl": "/pizza.png"
-      },
-      {
-        "name": "Calculator",
-        "vercelLink": "https://react-reducer-calculator-blue.vercel.app/",
-        "gitLink": "https://github.com/gokcanparlaktas/React-Reducer-Calculator",
-        "description": "Creating a simple calculator with React and useReducer hook.",
-        "skill": ["react", "hooks", "css", "reducer"],
-        "photoUrl": "/assets/calc.png"
       }
     ],
     "show": "View on GitHub",
     "application": "Go to Application "
   },
   "common": {
-    "colors": ["#DDEEFE", "#D9F6F1", "#f7c1d5","#5b88d4"],
+    "colors": ["#DDEEFE", "#D9F6F1", "#E8D5FF", "#FFD5D5", "#FFE5CC", "#f7c1d5", "#C8E6C9"],
 
     "skills": [
       {

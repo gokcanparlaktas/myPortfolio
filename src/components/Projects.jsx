@@ -8,9 +8,12 @@ function Projects() {
     <div className="mt-5 pb-20 ">
       <div className="flex flex-col container ">
         <div className="mx-auto mt-10 ">
-          <h2 className="text-4xl mb-10">{localizedData.projectHeader}</h2>
+          <h2 className="text-4xl mb-10 flex items-center gap-2 justify-center">
+            {localizedData.projectHeader}
+            <span className="text-2xl animate-pulse">→</span>
+          </h2>
         </div>
-        <div className="flex container overflow-x-auto flex-wrap-reverse lg:flex-nowrap gap-y-20 gap-x-5 place-content-around lg:gap-10 " style={{ paddingBottom: '5rem', minHeight: 'fit-content' }}>
+        <div className="flex container overflow-x-auto flex-wrap-reverse lg:flex-nowrap gap-y-20 gap-x-5 place-content-around lg:gap-10 " style={{ paddingBottom: '10rem', minHeight: 'fit-content' }}>
           {localizedData.projects.map((project, index) => (
             <div
               key={index}
