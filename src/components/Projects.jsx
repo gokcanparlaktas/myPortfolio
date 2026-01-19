@@ -30,7 +30,7 @@ function Projects() {
               className={`h-[670px] relative flex-col place-content- p-10 w-[100vw] md:w-[50vw] lg:w-[calc(33.333%-1.25rem)] rounded-lg shadow-md flex-shrink-0 bg-[${common.colors[index]}]`}
             >
               <div>
-                <h3 className="text-3xl font-bold font-playfair leading-10 ">
+                <h3 className="text-2xl font-bold font-playfair leading-10 ">
                   {project.name}
                 </h3>
               </div>
@@ -79,12 +79,17 @@ function Projects() {
                   </div>
                 )}
               </div>
-              <img
-                className="absolute bottom-[-13rem] left-0 right-0 cursor-pointer transition-transform duration-300 hover:scale-105"
-                src={project.photoUrl}
-                alt="Logo"
-                onClick={() => setSelectedImage(project.photoUrl)}
-              />
+              <div className="absolute bottom-[-13rem] lg:bottom-[-11rem] left-0 right-0">
+                <p className="text-center text-sm text-gray-600 mb-2 opacity-70">
+                  {localizedData.clickToEnlarge}
+                </p>
+                <img
+                  className="w-full cursor-pointer transition-transform duration-300 hover:scale-105"
+                  src={project.photoUrl}
+                  alt="Logo"
+                  onClick={() => setSelectedImage(project.photoUrl)}
+                />
+              </div>
             </div>
           ))}
         </div>

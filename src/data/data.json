@@ -8,6 +8,7 @@
     "skillBackend": "Backend",
     "skillDatabase": "Database",
     "skillOther": "Diğer Yetenekler",
+    "clickToEnlarge": "Büyütmek için tıklayın",
     "profileHeader": "Profil",
     "profile": "Kişisel Bilgilerim",
     "info": [
@@ -173,7 +174,8 @@
       }
     ],
     "show": "View on GitHub",
-    "application": "Go to Application "
+    "application": "Go to Application ",
+    "clickToEnlarge": "Click to enlarge"
   },
   "common": {
     "colors": ["#DDEEFE", "#D9F6F1", "#E8D5FF", "#FFD5D5", "#FFE5CC", "#f7c1d5", "#C8E6C9"],
